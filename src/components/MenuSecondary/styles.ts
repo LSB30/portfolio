@@ -90,8 +90,13 @@ export const Li = styled.li`
     font-size: 2.8rem;
     transition: all 0.4s ease 0s;
 
+    &:hover {
+    color: #8485f6;
+  }
     > span {
       font-size: 1.6rem;
     }
   }
+
+  
 `;
