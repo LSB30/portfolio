@@ -62,3 +62,36 @@ export const DivImg = styled.div`
   border-radius: 50%;
   border: 4px solid rgb(11, 9, 9);
 `;
+
+export const MenuNav = styled.nav`
+  margin-top: 2rem;
+  position: relative;
+
+  .navList {
+    padding: 0px;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+`;
+
+export const Li = styled.li`
+  width: 100%;
+  padding: 1.6rem;
+
+  > a {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4rem;
+    font-size: 2.8rem;
+    gap: 1.5rem;
+    color: #e2e8f0;
+    font-size: 2.8rem;
+    transition: all 0.4s ease 0s;
+
+    > span {
+      font-size: 1.6rem;
+    }
+  }
+`;

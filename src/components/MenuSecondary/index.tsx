@@ -1,5 +1,6 @@
-import { ContainerMenu, ContainerPerfil, DivImg } from "./styles";
-
+import { Link } from "react-router-dom";
+import { ContainerMenu, ContainerPerfil, DivImg, Li, MenuNav } from "./styles";
+import {PiHouseLineLight, PiCode, PiUserCircleLight, PiGraduationCapLight} from "react-icons/pi"
 export default function MenuSecondary() {
   return (
     <ContainerMenu>
@@ -13,6 +14,32 @@ export default function MenuSecondary() {
 
         <a href=""></a>
       </ContainerPerfil>
+
+      <MenuNav>
+        <ul className="navList">
+          <Li>
+            <Link to={"/"}>
+             <PiHouseLineLight/> <span>Home</span>
+            </Link>
+          </Li>
+          <Li>
+            <Link to={"/projetos"}>
+             <PiCode/> <span>Projetos</span>
+            </Link>
+          </Li>
+          <Li>
+            <Link to={"/"}>
+             <PiGraduationCapLight/> <span>Certificados</span>
+            </Link>
+          </Li>
+          <Li>
+            <Link to={"/"}>
+             <PiUserCircleLight/> <span>Sobre</span>
+            </Link>
+          </Li>
+         
+        </ul>
+      </MenuNav>
     </ContainerMenu>
   );
 }
