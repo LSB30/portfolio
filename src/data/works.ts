@@ -1,7 +1,7 @@
 const works = [
   {
     id: 1,
-    img: "",
+    img: "/skills/react.svg",
     title: "Freelancer",
     subTitle: "Desenvolvedor Front-end",
     office: "Freelancer",
