@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const ContainerMenu = styled.header`
+export const ContainerMenu = styled.div`
   position: absolute;
   left: 0;
   width: 32rem;
@@ -7,8 +7,14 @@ export const ContainerMenu = styled.header`
   padding: 2.4rem;
   backdrop-filter: blur(24px);
   box-shadow: rgb(2, 6, 23) 0px 10px 30px 1px;
+  
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 995px) {
+    position: fixed;
+    top: 0;
+  }
 `;
 
 export const ContainerPerfil = styled.div`

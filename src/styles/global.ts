@@ -13,6 +13,7 @@ export default createGlobalStyle`
 
   html {
     scroll-behavior: smooth;
+    
   }
   :root {
     font-size: 62.5%;

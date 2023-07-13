@@ -28,9 +28,10 @@ export const NavMenu = styled.nav<Click>`
       flex-direction: column;
 
       > a {
-        font-size: 2rem;
-        color: #fff;
-        font-weight: bold;
+        color: #e2e8f0;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
       }
     }
   }
@@ -46,8 +47,6 @@ export const NavMenu = styled.nav<Click>`
     }
   }
 `;
-
-
 
 export const MobileIcon = styled.div`
   display: none;
