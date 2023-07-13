@@ -22,9 +22,9 @@ export default function Title() {
             <Typewriter
               options={{
                 strings: [
-                  "Front-end Developer",
-                  "React Specialist",
-                  "Next Specialist",
+                  "Full-Stack Developer",
+                  "Gerar Resultados",
+                  "Solucionar Problemas",
                 ],
                 autoStart: true,
                 loop: true,

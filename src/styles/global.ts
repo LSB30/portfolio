@@ -40,5 +40,17 @@ export default createGlobalStyle`
     text-decoration: none;
   }
 
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+     font-size: 1.6rem !important;
+    color: #bfc3f2;
+    @media (min-width: 1170px) {
+      .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        font-size: 2rem;
+      }
+     
+   
+ }
+  }
 
+  
 `;

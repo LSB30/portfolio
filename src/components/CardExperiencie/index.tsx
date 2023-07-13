@@ -19,12 +19,14 @@ export default function CardExperience() {
             works.map(work => {
               return (
                 <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 contentStyle={{
                   background: "#070d1e ",
                   borderBottom: "0.7rem solid #070d1e",
                   boxShadow: " 0px 5px 0px 0px #8485f6"
                 }}
                 contentArrowStyle={{borderRight: "1rem solid #070d1e"}}
+                dateClassName="date"
                 date={work.date}
                 icon={
                   <img 

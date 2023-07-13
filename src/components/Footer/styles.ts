@@ -12,7 +12,7 @@ export const ContainerFooter = styled.footer`
 
   > h4 {
     font-size: 2rem;
-    color: #8485f6;
+    color: #f9f9f9;
   }
 
   .linksSociais {
