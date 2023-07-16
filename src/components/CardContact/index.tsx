@@ -9,8 +9,8 @@ export default function CardContact() {
         <div className="contact-text">
           <h1>Vamos Conversar !</h1>
           <p>
-            Sinta-se à vontade para entrar em contato comigo enviando o
-            formulário abaixo e retornarei o mais breve possível
+            Sinta-se à vontade para entrar em contato comigo enviando um
+            formulário ou uma mensagem nas rede sociais, retornarei o mais breve possível.
           </p>
         </div>
 
