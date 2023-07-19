@@ -29,7 +29,7 @@ export const ImgContainer = styled.div`
 
   @media (max-width: 995px) {
     img {
-      width: 6rem;
+      width: 5rem;
     }
   }
 

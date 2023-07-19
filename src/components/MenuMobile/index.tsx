@@ -1,8 +1,13 @@
 import { useState } from "react";
 import { List, X } from "phosphor-react";
+import {
+  PiHouseLineLight,
+  PiRocketLight,
+  PiUserCircleLight,
+  PiAddressBookLight,
+} from "react-icons/pi";
 
 import { MobileContent, MobileIcon, NavMenu } from "./styles";
-import { Link } from "react-router-dom";
 export default function MenuMobile() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
@@ -23,10 +28,18 @@ export default function MenuMobile() {
 
       <NavMenu onClick={handleOpen} open={open}>
         <div className="menu-mobile">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/"}>Projetos</Link>
-          <Link to={"/"}>Sobre</Link>
-          <Link to={"/"}>Contato</Link>
+          <a href="/">
+            <PiHouseLineLight /> <span>Home</span>
+          </a>
+          <a href="#projects">
+            <PiRocketLight /> <span>Projetos</span>
+          </a>
+          <a href="#sobre">
+            <PiUserCircleLight /> <span>Sobre</span>
+          </a>
+          <a href="#contato">
+            <PiAddressBookLight/> <span>Contato</span>
+          </a>
         </div>
       </NavMenu>
     </>

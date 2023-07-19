@@ -28,10 +28,26 @@ export const NavMenu = styled.nav<Click>`
       flex-direction: column;
 
       > a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.4rem;
+        font-size: 2.8rem;
+        gap: 1.5rem;
         color: #e2e8f0;
-        font-size: 1.6rem;
-        font-weight: 600;
-        letter-spacing: 0.08em;
+        font-size: 2.8rem;
+        transition: all 0.4s ease 0s;
+        width: 100%;
+        margin-left: 30rem;
+        > svg {
+          font-size: 3rem;
+        }
+        &:hover {
+          color: #8485f6;
+        }
+        > span {
+          font-size: 1.6rem;
+        }
       }
     }
   }

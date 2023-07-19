@@ -14,10 +14,10 @@ export function AppRoutes() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route element={<PagesAlternativas />}>
-            <Route path="/projetos" element={<Projetos />} />
-            <Route path="/sobre" element={<About />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="/certificados" element={<Certificados />} />
+            <Route path="" element={<Projetos />} />
+            <Route path="" element={<About />} />
+            <Route path="" element={<Contato />} />
+            <Route path="" element={<Certificados />} />
           </Route>
         </Routes>
       </BrowserRouter>

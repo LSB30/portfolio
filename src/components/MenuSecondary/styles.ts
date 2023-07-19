@@ -7,7 +7,7 @@ export const ContainerMenu = styled.div`
   padding: 2.4rem;
   backdrop-filter: blur(24px);
   box-shadow: rgb(2, 6, 23) 0px 10px 30px 1px;
-  
+
   display: flex;
   flex-direction: column;
 
@@ -85,10 +85,11 @@ export const MenuNav = styled.nav`
 export const Li = styled.li`
   width: 100%;
   padding: 1.6rem;
-
+  position: relative;
   > a {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 1.4rem;
     font-size: 2.8rem;
     gap: 1.5rem;
@@ -96,9 +97,12 @@ export const Li = styled.li`
     font-size: 2.8rem;
     transition: all 0.4s ease 0s;
 
+    > svg {
+      font-size: 2rem;
+    }
     &:hover {
-    color: #8485f6;
-  }
+      color: #8485f6;
+    }
     > span {
       font-size: 1.6rem;
     }

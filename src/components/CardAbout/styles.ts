@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import star from "../../assets/images/bg-stars.svg"
+import star from "../../assets/images/bg-stars.svg";
 export const ContainerAbout = styled.section`
   padding-top: 3.2rem;
   display: flex;
@@ -33,7 +33,9 @@ export const ContentAbout = styled.section`
 
     img {
       width: 18rem;
+      border-radius: 1rem;
       filter: drop-shadow(1px 1px 10px #8485f6);
+      border: 3px solid #8485f6;
     }
 
     @media (min-width: 995px) {

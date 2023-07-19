@@ -10,12 +10,16 @@ export const ContainerStatus = styled.div`
 export const LogoSkater = styled.div`
   position: absolute;
   top: 15rem;
-  right: 25rem;
+  right: 15rem;
   transition: all 0.3ms linear;
   animation: animationLoad 3s, ImgAnimation 3s infinite linear;
 
   > img {
-    width: 25rem;
+    width: 45rem;
+    
+    @media (max-width: 995px) {
+      width: 37rem;
+    }
   }
 
   @keyframes animationLoad {

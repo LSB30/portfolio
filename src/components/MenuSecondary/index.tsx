@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { ContainerMenu, ContainerPerfil, DivImg, Li, MenuNav } from "./styles";
 import {PiHouseLineLight, PiCode, PiUserCircleLight, PiGraduationCapLight} from "react-icons/pi"
 export default function MenuSecondary() {
+  const location = useLocation()
+  console.log(location)
   return (
     <ContainerMenu>
       <ContainerPerfil>

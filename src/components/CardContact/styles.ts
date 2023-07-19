@@ -44,7 +44,6 @@ export const ContentContact = styled.div`
     transition: all 0.3ms linear;
     animation: animationLoad 3s, ImgAnimation 3s infinite linear;
     filter: drop-shadow(1px 1px 10px #8485f6);
-
   }
   @media (max-width: 995px) {
     flex-direction: column;
@@ -87,8 +86,13 @@ export const ButtonContact = styled.button`
   margin-top: 2rem;
   &:hover {
     color: black;
-    background-color: rgb(239, 240, 247);
+    background-color: rgb(82, 82, 224);
     box-shadow: 0 0 1em 0.25em rgb(82, 82, 224), 0 0 4em 2em rgb(82, 82, 224),
       inset 0 0 0.75em 0.25em rgb(239, 240, 247);
+  }
+
+  > a {
+    text-decoration: none;
+    color: rgb(239, 240, 247);
   }
 `;
