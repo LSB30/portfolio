@@ -1,4 +1,4 @@
-import { LogoContainer, ImgContainer } from "./styles";
+import { LogoContainer } from "./styles";
 import { Link } from "react-router-dom";
 import LogoTitle from "../LogoTitle";
 export default function Logo() {
