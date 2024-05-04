@@ -15,22 +15,22 @@ export default function GitHub() {
           <div className="stage-cube-cont">
             <div className="cubespinner">
               <div className="face1">
-                <img src="/skills/html.svg" alt="Html" />
+                <img src="/skills/java.svg" alt="Java" />
               </div>
               <div className="face2">
                 <img src="/skills/react.svg" alt="React JS" />
               </div>
               <div className="face3">
-                <img src="/skills/javascript (2).svg" alt="JavaScript" />
+                <img src="/skills/springboot.svg" alt="SpringBoot" />
               </div>
               <div className="face4">
                 <img src="/skills/typescript.svg" alt="TypeScript" />
               </div>
               <div className="face5">
-                <img src="/skills/css.svg" alt="Css" />
+                <img src="/skills/aws.svg" alt="AWS" />
               </div>
               <div className="face6">
-                <img src="/skills/next-js.svg" alt="Next JS" />
+                <img src="/skills/mongodb.svg" alt="MongoDB" />
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import {
   Button,
   ButtonAlternatives,
 } from "./styles";
-import astrounataCoffee from "../../assets/images/eugato.png";
+import euu from "../../../public/skills/euu.jpeg";
 import { ArrowRight, TelegramLogo } from "phosphor-react";
 import CardAnimation from "../CardAnimation";
 export default function CardAbout() {
@@ -15,7 +15,7 @@ export default function CardAbout() {
         <CardAnimation />
         <ContentAbout>
           <div className="aboutImg">
-            <img src={astrounataCoffee} alt="" />
+            <img src={euu} alt="" />
           </div>
 
           <div className="aboutContent">
